@@ -1,0 +1,17 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+client.on('ready', () => {
+  console.log(`Logged in as ${client.user.tag}!`);  
+});
+
+
+client.on('ready', async() => {
+var server = "Id server"; // 512693975363223573
+var channel = "id room";//513991573772697602
+    setInterval(()=>{
+    client.guilds.get(server).channels.get(channel).send('**Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , Magic Spam , **')
+    },305);
+})
+
+client.login(NTAyOTEwNDc5MzA4NDIzMTkx.DtgCHg.PeWR4JAcp73q9bWn2XFNVpU9PWM);
